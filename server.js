@@ -9,24 +9,15 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// CORS restrito — só aceita origens confiáveis
-const allowedOrigins = [
-    'http://localhost:3000',
-    'http://localhost:8081',
-    'http://195.200.1.107',
-    'http://195.200.1.107:3000',
-    `http://195.200.1.107:${PORT}`
-];
-app.use(cors({
-    origin: function (origin, callback) {
-        // Permite requisições sem origin (mobile apps, curl, etc)
-        if (!origin || allowedOrigins.includes(origin)) {
-            callback(null, true);
-        } else {
-            callback(null, true); // Em produção, troque por: callback(new Error('Bloqueado pelo CORS'))
-        }
-    }
-}));
+// Middleware de Log para Debug
+app.use((req, res, next) => {
+    console.log(`[${new Date().toISOString()}] ${req.method} ${req.url}`);
+    next();
+});
+
+// CORS (Temporariamente aberto para debug)
+app.use(cors());
+
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
