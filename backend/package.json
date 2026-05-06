@@ -1,0 +1,20 @@
+{
+  "name": "rtify-backend",
+  "version": "1.0.0",
+  "description": "Backend Proxy for Spotify -> Deezer Streaming via ARL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --openssl-legacy-provider server.js",
+    "dev": "node --openssl-legacy-provider --watch server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "isomorphic-unfetch": "^4.0.2",
+    "node-id3": "^0.2.9",
+    "spotify-uri": "^4.1.0",
+    "spotify-url-info": "^3.3.0"
+  }
+}

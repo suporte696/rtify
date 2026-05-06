@@ -1,0 +1,46 @@
+{
+  "collaborative": false,
+  "description": "This playlist was created by https:&#x2F;&#x2F;www.tunemymusic.com that lets you transfer your playlist to Spotify from any music platform such as Deezer, YouTube, Apple Music etc.",
+  "external_urls": {
+    "spotify": "https://open.spotify.com/playlist/1Q6S0EGIqIHDwlreKdc2gW"
+  },
+  "followers": {
+    "href": null,
+    "total": 0
+  },
+  "href": "https://api.spotify.com/v1/playlists/1Q6S0EGIqIHDwlreKdc2gW",
+  "id": "1Q6S0EGIqIHDwlreKdc2gW",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://mosaic.scdn.co/640/ab67616d00001e020e767887e304020cdbbe25e8ab67616d00001e024ae1c4c5c45aabe565499163ab67616d00001e0263bf1cd36632031eb3081cb0ab67616d00001e028ff7c3580d429c8212b9a3b6",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://mosaic.scdn.co/300/ab67616d00001e020e767887e304020cdbbe25e8ab67616d00001e024ae1c4c5c45aabe565499163ab67616d00001e0263bf1cd36632031eb3081cb0ab67616d00001e028ff7c3580d429c8212b9a3b6",
+      "width": 300
+    },
+    {
+      "height": 60,
+      "url": "https://mosaic.scdn.co/60/ab67616d00001e020e767887e304020cdbbe25e8ab67616d00001e024ae1c4c5c45aabe565499163ab67616d00001e0263bf1cd36632031eb3081cb0ab67616d00001e028ff7c3580d429c8212b9a3b6",
+      "width": 60
+    }
+  ],
+  "name": "Quando o carro chegar",
+  "owner": {
+    "display_name": "Rodrigo Remir",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/user/31ysxteiekjvldypbxgs2ix2a7au"
+    },
+    "href": "https://api.spotify.com/v1/users/31ysxteiekjvldypbxgs2ix2a7au",
+    "id": "31ysxteiekjvldypbxgs2ix2a7au",
+    "type": "user",
+    "uri": "spotify:user:31ysxteiekjvldypbxgs2ix2a7au"
+  },
+  "primary_color": null,
+  "public": true,
+  "snapshot_id": "AAAACSHIioQkj4VamzyDSQglI76OqlU5",
+  "type": "playlist",
+  "uri": "spotify:playlist:1Q6S0EGIqIHDwlreKdc2gW"
+}

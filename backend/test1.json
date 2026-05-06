@@ -1,0 +1,19 @@
+{
+  "keys": [
+    "collaborative",
+    "description",
+    "external_urls",
+    "followers",
+    "href",
+    "id",
+    "images",
+    "name",
+    "owner",
+    "primary_color",
+    "public",
+    "snapshot_id",
+    "type",
+    "uri"
+  ],
+  "tracks": false
+}

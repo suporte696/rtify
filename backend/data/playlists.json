@@ -1,0 +1,924 @@
+[
+  {
+    "id": "mool3dheloyn",
+    "name": "[Spotify] \"ar-oh-ci-key\"",
+    "spotifyId": "0gmiuUA0Jn08WAvcZVF0Fa",
+    "tracks": [
+      {
+        "id": "6RjhyqZZgQz65hOUFdBIEm",
+        "name": "lost ‘cause",
+        "artist": "Switchfoot",
+        "album": "interrobang",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b2736514470f018e215c9029f92b",
+        "duration_ms": 224960,
+        "isrc": "USC4R2108213"
+      },
+      {
+        "id": "2md2i5QvelRFnafpnd6LOg",
+        "name": "Meant to Live",
+        "artist": "Switchfoot",
+        "album": "The Beautiful Letdown (Deluxe Version)",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273656001849b39dfee31b8d855",
+        "duration_ms": 201373,
+        "isrc": "USSM10214186"
+      },
+      {
+        "id": "2VSbEXqs6NbNiZSTcHlIDR",
+        "name": "My Sacrifice",
+        "artist": "Creed",
+        "album": "Weathered",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273a32f2ae4dade83e0d7a294f4",
+        "duration_ms": 294600,
+        "isrc": "USWU30107501"
+      },
+      {
+        "id": "3tQFthLmtBuc0XPL2b8nnu",
+        "name": "Little by Little",
+        "artist": "Oasis",
+        "album": "Heathen Chemistry",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273f687135853a4488b2178d0bf",
+        "duration_ms": 292866,
+        "isrc": "GBBQY0202064"
+      },
+      {
+        "id": "4aVuWgvD0X63hcOCnZtNFA",
+        "name": "Hold the Line",
+        "artist": "TOTO",
+        "album": "Toto",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273105ef588df1ef91bfa811f94",
+        "duration_ms": 235552,
+        "isrc": "USSM17800444"
+      },
+      {
+        "id": "1ZLtE9tSJdaUiIJ9YoKHQe",
+        "name": "Decode",
+        "artist": "Paramore",
+        "album": "Decode",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273b236d0eae2659e7e7adb8b56",
+        "duration_ms": 261959,
+        "isrc": "USAT22103220"
+      },
+      {
+        "id": "2BoWXJfClbDQkZCZsE0Ru7",
+        "name": "Savin' Me - 2020 Remaster",
+        "artist": "Nickelback",
+        "album": "All The Right Reasons (15th Anniversary Expanded Edition)",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273bad7e941f557e06019b87fd4",
+        "duration_ms": 219293,
+        "isrc": "USRH12000110"
+      },
+      {
+        "id": "5B5eTk7DF8KVp1zpQoY1XY",
+        "name": "The Reason",
+        "artist": "Hoobastank",
+        "album": "The Reason (20th Anniversary)",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27394f8b5f85bad2c8affe6cc7d",
+        "duration_ms": 232800,
+        "isrc": "USIR20300704"
+      },
+      {
+        "id": "0AN6mh9gZ3OD6UhryCxhQ0",
+        "name": "Lion And The Lamb",
+        "artist": "Seventh Day Slumber",
+        "album": "Unseen: The Lion And The Lamb (Deluxe Edition)",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b2734bfd0e91bf806bc73d736cfd",
+        "duration_ms": 271485,
+        "isrc": "QZCKC2000156"
+      },
+      {
+        "id": "33MnSYLvtOrbj5zwfioEiH",
+        "name": "Be Somebody",
+        "artist": "Thousand Foot Krutch",
+        "album": "The End Is Where We Begin",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b2731a2e4290b83a4c810d019fcd",
+        "duration_ms": 222435,
+        "isrc": "TCABF1202216"
+      },
+      {
+        "id": "0COqiPhxzoWICwFCS4eZcp",
+        "name": "Bring Me To Life",
+        "artist": "Evanescence",
+        "album": "Fallen",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27325f49ab23f0ec6332efef432",
+        "duration_ms": 235893,
+        "isrc": "USWU30200093"
+      },
+      {
+        "id": "1p1nO35bbi4ZlQgjIA4oa4",
+        "name": "The Kill (Bury Me)",
+        "artist": "Thirty Seconds To Mars",
+        "album": "A Beautiful Lie",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273a4f10a67aca8bf0eca668006",
+        "duration_ms": 231533,
+        "isrc": "USVI20500136"
+      },
+      {
+        "id": "70LcF31zb1H0PyJoS1Sx1r",
+        "name": "Creep",
+        "artist": "Radiohead",
+        "album": "Pablo Honey",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273ec548c00d3ac2f10be73366d",
+        "duration_ms": 238640,
+        "isrc": "GBAYE9200070"
+      },
+      {
+        "id": "0yac0FPhLRH9i9lOng3f81",
+        "name": "Everybody's Changing",
+        "artist": "Keane",
+        "album": "Hopes And Fears",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b2737d6cd95a046a3c0dacbc7d33",
+        "duration_ms": 215880,
+        "isrc": "GBAAN0400092"
+      },
+      {
+        "id": "6zeE5tKyr8Nu882DQhhSQI",
+        "name": "Dust in the Wind",
+        "artist": "Kansas",
+        "album": "Point Of Know Return (Expanded Edition)",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27359f0f56a7cd13526b5b4204c",
+        "duration_ms": 206266,
+        "isrc": "USSM10103196"
+      },
+      {
+        "id": "7e89621JPkKaeDSTQ3avtg",
+        "name": "Sweet Home Alabama",
+        "artist": "Lynyrd Skynyrd",
+        "album": "Second Helping (Expanded Edition)",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27317e1907923e91181f38290ac",
+        "duration_ms": 283800,
+        "isrc": "USMC17446153"
+      },
+      {
+        "id": "7e89621JPkKaeDSTQ3avtg",
+        "name": "Sweet Home Alabama",
+        "artist": "Lynyrd Skynyrd",
+        "album": "Second Helping (Expanded Edition)",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27317e1907923e91181f38290ac",
+        "duration_ms": 283800,
+        "isrc": "USMC17446153"
+      },
+      {
+        "id": "0aGQHMr7bc23Y9Ts84ffop",
+        "name": "Around the World",
+        "artist": "Red Hot Chili Peppers",
+        "album": "Californication (Deluxe Edition)",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27394d08ab63e57b0cae74e8595",
+        "duration_ms": 238733,
+        "isrc": "USWB19900687"
+      },
+      {
+        "id": "6ZOBP3NvffbU4SZcrnt1k6",
+        "name": "Kryptonite",
+        "artist": "3 Doors Down",
+        "album": "The Better Life",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b2732868c4713a3912fd476b42f1",
+        "duration_ms": 233933,
+        "isrc": "USUR19980187"
+      },
+      {
+        "id": "1gVgkQFOKa8Wc1HYsJtPdH",
+        "name": "More Than Words",
+        "artist": "Extreme",
+        "album": "Extreme II - Pornograffitti",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273fb16b9b69eb891027654bcb1",
+        "duration_ms": 334106,
+        "isrc": "USAM19090005"
+      },
+      {
+        "id": "54b8qPFqYqIndfdxiLApea",
+        "name": "Alone",
+        "artist": "Heart",
+        "album": "Bad Animals",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27309467e05060a265e54c5b2b3",
+        "duration_ms": 218733,
+        "isrc": "USCA28700690"
+      },
+      {
+        "id": "5qqabIl2vWzo9ApSC317sa",
+        "name": "Wonderwall - Remastered",
+        "artist": "Oasis",
+        "album": "(What's The Story) Morning Glory? [Remastered]",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27385e5dcc05cc216a10f141480",
+        "duration_ms": 258773,
+        "isrc": "GBQCP1400109"
+      },
+      {
+        "id": "0UvCh63URrLFcPkKt99hHd",
+        "name": "Don't Look Back in Anger - Remastered",
+        "artist": "Oasis",
+        "album": "(What's The Story) Morning Glory? [Remastered]",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27385e5dcc05cc216a10f141480",
+        "duration_ms": 289560,
+        "isrc": "GBQCP1400110"
+      },
+      {
+        "id": "1yg7fwwYmx9DQ2TdXUmfpJ",
+        "name": "Holding Back the Years - 2008 Remaster",
+        "artist": "Simply Red",
+        "album": "Picture Book (Expanded Version)",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273d27f104dd5adb7029d109720",
+        "duration_ms": 269840,
+        "isrc": "GBCRL0800119"
+      },
+      {
+        "id": "31AOj9sFz2gM0O3hMARRBx",
+        "name": "Losing My Religion",
+        "artist": "R.E.M.",
+        "album": "Out Of Time (25th Anniversary Edition)",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273e2dd4e821bcc3f70dc0c8ffd",
+        "duration_ms": 268426,
+        "isrc": "USC4R1605373"
+      },
+      {
+        "id": "42T2QQv3xgBlpQxaSP7lnK",
+        "name": "One Last Breath",
+        "artist": "Creed",
+        "album": "Weathered",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273a32f2ae4dade83e0d7a294f4",
+        "duration_ms": 238240,
+        "isrc": "USWU30107505"
+      },
+      {
+        "id": "1MTQHCpraD4S8g5PAFKzoj",
+        "name": "Behind Blue Eyes",
+        "artist": "Limp Bizkit",
+        "album": "Results May Vary",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27344971d48c21dbd132f2d506e",
+        "duration_ms": 269973,
+        "isrc": "USIR10312186"
+      },
+      {
+        "id": "225xvV8r1yKMHErSWivnow",
+        "name": "I Don't Want to Miss a Thing - From \"Armageddon\" Soundtrack",
+        "artist": "Aerosmith",
+        "album": "Armageddon - The Album",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273da8d92affd796f7e20af7375",
+        "duration_ms": 298760,
+        "isrc": "USSM19801545"
+      },
+      {
+        "id": "225xvV8r1yKMHErSWivnow",
+        "name": "I Don't Want to Miss a Thing - From \"Armageddon\" Soundtrack",
+        "artist": "Aerosmith",
+        "album": "Armageddon - The Album",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273da8d92affd796f7e20af7375",
+        "duration_ms": 298760,
+        "isrc": "USSM19801545"
+      },
+      {
+        "id": "1JO1xLtVc8mWhIoE3YaCL0",
+        "name": "Happy Together",
+        "artist": "The Turtles",
+        "album": "Happy Together",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27372649ad8e79d1e8bdd54c929",
+        "duration_ms": 176293,
+        "isrc": "USA560587940"
+      },
+      {
+        "id": "77NNZQSqzLNqh2A9JhLRkg",
+        "name": "Don't Stop Believin'",
+        "artist": "Journey",
+        "album": "The Essential Journey",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b2730f6ce5c138493ac768d9afc8",
+        "duration_ms": 248906,
+        "isrc": "USSM18100116"
+      },
+      {
+        "id": "4MYb7NWLwXNDB7bYs3HeX8",
+        "name": "Slow Ride - Edit",
+        "artist": "Foghat",
+        "album": "Slow Ride / Save Your Loving (For Me)",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273975654aa448d9211889c26ca",
+        "duration_ms": 232533,
+        "isrc": "USRH10802802"
+      },
+      {
+        "id": "2fuCquhmrzHpu5xcA1ci9x",
+        "name": "Under Pressure - Remastered 2011",
+        "artist": "Queen, David Bowie",
+        "album": "Hot Space (2011 Remaster)",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273d254ca497999ae980a5a38c5",
+        "duration_ms": 248440,
+        "isrc": "GBUM71029622"
+      },
+      {
+        "id": "0QnONzv3TvHAWk294h6DaQ",
+        "name": "Last Kiss",
+        "artist": "Pearl Jam",
+        "album": "Last Kiss",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273d7db5abcbc899f3994c66fc6",
+        "duration_ms": 195466,
+        "isrc": "USSM19805513"
+      },
+      {
+        "id": "4gMgiXfqyzZLMhsksGmbQV",
+        "name": "Another Brick in the Wall, Pt. 2",
+        "artist": "Pink Floyd",
+        "album": "The Wall",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273b694e89ba937dd2631ff584c",
+        "duration_ms": 238946,
+        "isrc": "GBN9Y1100099"
+      },
+      {
+        "id": "4RvWPyQ5RL0ao9LPZeSouE",
+        "name": "Everybody Wants To Rule The World",
+        "artist": "Tears For Fears",
+        "album": "Songs From The Big Chair (Super Deluxe Edition)",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27322463d6939fec9e17b2a6235",
+        "duration_ms": 251488,
+        "isrc": "GBF088590110"
+      },
+      {
+        "id": "1Og8U5KRel9D51h4bmznlE",
+        "name": "With Or Without You",
+        "artist": "U2",
+        "album": "The Best Of 1980 - 1990",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273ba171000f58dd9dde2692122",
+        "duration_ms": 295200,
+        "isrc": "GBAAN8790003"
+      },
+      {
+        "id": "1JSTJqkT5qHq8MDJnJbRE1",
+        "name": "Every Breath You Take",
+        "artist": "The Police",
+        "album": "Synchronicity (Remastered 2003)",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273c8e97cafeb2acb85b21a777e",
+        "duration_ms": 253920,
+        "isrc": "GBAAM0201110"
+      },
+      {
+        "id": "2LawezPeJhN4AWuSB0GtAU",
+        "name": "Have You Ever Seen The Rain",
+        "artist": "Creedence Clearwater Revival",
+        "album": "Pendulum (Expanded Edition)",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27351f311c2fb06ad2789e3ff91",
+        "duration_ms": 160133,
+        "isrc": "USC4R0817643"
+      },
+      {
+        "id": "1H5IfYyIIAlgDX8zguUzns",
+        "name": "Suspicious Minds",
+        "artist": "Elvis Presley",
+        "album": "From Elvis in Memphis",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273b26c34d79e4cdaa73672a0b1",
+        "duration_ms": 263135,
+        "isrc": "USRC16901355"
+      },
+      {
+        "id": "37ZJ0p5Jm13JPevGcx4SkF",
+        "name": "Livin' On A Prayer",
+        "artist": "Bon Jovi",
+        "album": "Slippery When Wet",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b2731336b31b6a1799f0de5807ac",
+        "duration_ms": 249293,
+        "isrc": "USPR38619998"
+      },
+      {
+        "id": "3dPQuX8Gs42Y7b454ybpMR",
+        "name": "Seven Nation Army",
+        "artist": "The White Stripes",
+        "album": "Elephant",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b2737028981d09d2e5833c9c78ad",
+        "duration_ms": 232106,
+        "isrc": "USVT10300001"
+      },
+      {
+        "id": "54eZmuggBFJbV7k248bTTt",
+        "name": "A Horse with No Name",
+        "artist": "America, George Martin",
+        "album": "America",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273cc2ef2810c85fde8ec60cbc4",
+        "duration_ms": 252239,
+        "isrc": "USWB19901792"
+      },
+      {
+        "id": "6dGnYIeXmHdcikdzNNDMm2",
+        "name": "Here Comes The Sun - Remastered 2009",
+        "artist": "The Beatles",
+        "album": "Abbey Road (Remastered)",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273dc30583ba717007b00cceb25",
+        "duration_ms": 185733,
+        "isrc": "GBAYE0601696"
+      },
+      {
+        "id": "2d8D7uk3tbAThjRkdfrx9c",
+        "name": "Voyage voyage",
+        "artist": "Desireless",
+        "album": "François",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b2738f5813c842cb115f3cf1fecd",
+        "duration_ms": 266600,
+        "isrc": "DEQ858600201"
+      },
+      {
+        "id": "0LEECGXVuORkSUwQmEsjTk",
+        "name": "Incondicional",
+        "artist": "Oficina G3",
+        "album": "Depois da Guerra",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27392e86dafb2fd0d63eea05a4d",
+        "duration_ms": 254490,
+        "isrc": "BRMKP0800712"
+      },
+      {
+        "id": "29wJiSQcze8HEmxkUQykyp",
+        "name": "Carrie",
+        "artist": "Europe",
+        "album": "The Final Countdown (Expanded Edition)",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273f5e30500f0eec7d92b159eae",
+        "duration_ms": 272133,
+        "isrc": "USSM18600197"
+      },
+      {
+        "id": "4FzrCRil9uGpGGsnnM0vkE",
+        "name": "Don't Stop Dancing",
+        "artist": "Creed",
+        "album": "Weathered",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273a32f2ae4dade83e0d7a294f4",
+        "duration_ms": 272866,
+        "isrc": "USWU30107510"
+      },
+      {
+        "id": "0eKyHwckh9vQb8ncZ2DXCs",
+        "name": "With Arms Wide Open",
+        "artist": "Creed",
+        "album": "Human Clay",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273f8f048a5f4749c970078a4fb",
+        "duration_ms": 274800,
+        "isrc": "USWU39908053"
+      },
+      {
+        "id": "3THdexHRmED4euIY91Zrxc",
+        "name": "Away From The Sun",
+        "artist": "3 Doors Down",
+        "album": "Away From The Sun",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27383c39b0d32eb4a2064e1e228",
+        "duration_ms": 232066,
+        "isrc": "USUR10200760"
+      },
+      {
+        "id": "5VGlqQANWDKJFl0MBG3sg2",
+        "name": "Use Somebody",
+        "artist": "Kings of Leon",
+        "album": "Only By The Night",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b2732519d01c0cca06f134eeadd8",
+        "duration_ms": 230760,
+        "isrc": "USRC10800301"
+      },
+      {
+        "id": "4QlzkaRHtU8gAdwqjWmO8n",
+        "name": "Friday I'm In Love",
+        "artist": "The Cure",
+        "album": "Wish",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b2739c72b249fcaa04d074c1dfcd",
+        "duration_ms": 215160,
+        "isrc": "GBALB9200002"
+      },
+      {
+        "id": "3285RNj9TGVvWlP8tYojDH",
+        "name": "Here With Me",
+        "artist": "The Killers",
+        "album": "Battle Born",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273f555f994cd61c8d017f53a27",
+        "duration_ms": 292320,
+        "isrc": "USUM71208807"
+      },
+      {
+        "id": "5ilzd41o9zNwD1jHMjbEiG",
+        "name": "Beautiful",
+        "artist": "Marillion",
+        "album": "Afraid of Sunlight (Deluxe Edition)",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273b8ddd5ea29cbd5428e9ecd77",
+        "duration_ms": 312253,
+        "isrc": "GBAYE9500081"
+      },
+      {
+        "id": "5PihYbt4uNnVt68l5D1SGb",
+        "name": "Goodbye",
+        "artist": "Air Supply",
+        "album": "The Vanishing Race",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27376ecea88384d03a215cc492e",
+        "duration_ms": 242853,
+        "isrc": "USGI10000045"
+      },
+      {
+        "id": "1SfdoZPbs0ObLEwwR7KcjF",
+        "name": "Bleeding Heart",
+        "artist": "ANGRA",
+        "album": "Hunters and Prey",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b2730b19a1a60fd43a330f8123d6",
+        "duration_ms": 244053,
+        "isrc": "BRBRI0500424"
+      },
+      {
+        "id": "14ILPmvz8SimpiISsCB58J",
+        "name": "Wuthering Heights",
+        "artist": "ANGRA",
+        "album": "Angels Cry",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b2730e9534d753e0b1f87b744b59",
+        "duration_ms": 279733,
+        "isrc": "BRBRI0500780"
+      },
+      {
+        "id": "4T4Xf8fBY6mQQ5af4u4Uua",
+        "name": "Stand Away",
+        "artist": "ANGRA",
+        "album": "Angels Cry",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b2730e9534d753e0b1f87b744b59",
+        "duration_ms": 297466,
+        "isrc": "BRBRI0500778"
+      },
+      {
+        "id": "0ADZ5dmXhlfzjMw6lefoPl",
+        "name": "Far Away",
+        "artist": "Nickelback",
+        "album": "All the Right Reasons",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27307fb7d8037f3962394c493ca",
+        "duration_ms": 238173,
+        "isrc": "NLA320581338"
+      },
+      {
+        "id": "45sziCSqS4BWSQWUlLRpyf",
+        "name": "Dare You to Move",
+        "artist": "Switchfoot",
+        "album": "The Best Yet",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273086698655fa030fb47ab3ed5",
+        "duration_ms": 246826,
+        "isrc": "USSM10315407"
+      },
+      {
+        "id": "3NLrRZoMF0Lx6zTlYqeIo4",
+        "name": "Here Without You",
+        "artist": "3 Doors Down",
+        "album": "Away From The Sun",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27383c39b0d32eb4a2064e1e228",
+        "duration_ms": 238733,
+        "isrc": "USUR10200764"
+      },
+      {
+        "id": "3hb2ScEVkGchcAQqrPLP0R",
+        "name": "Photograph",
+        "artist": "Nickelback",
+        "album": "All the Right Reasons",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27307fb7d8037f3962394c493ca",
+        "duration_ms": 258920,
+        "isrc": "NLA320581256"
+      },
+      {
+        "id": "3jJZVeExYzVYiV6Y9Fl3DX",
+        "name": "Plush",
+        "artist": "Stone Temple Pilots",
+        "album": "Core",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273147e0a8a7c795a4eb7c511db",
+        "duration_ms": 310346,
+        "isrc": "USAT29200016"
+      },
+      {
+        "id": "7wzxUErTA9Jw7UdZIeu1bi",
+        "name": "Save Me",
+        "artist": "Hanson",
+        "album": "This Time Around",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27395648a5034c50144d9c8a968",
+        "duration_ms": 222573,
+        "isrc": "USIR20000029"
+      },
+      {
+        "id": "5PxQhGYkbGXzjOLaUfAYMf",
+        "name": "Fly Away From Here",
+        "artist": "Aerosmith",
+        "album": "Just Push Play",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27336051875634a4833119cb4b8",
+        "duration_ms": 302151,
+        "isrc": "USSM10101263"
+      },
+      {
+        "id": "2RChe0r2cMoyOvuKobZy44",
+        "name": "Always",
+        "artist": "Bon Jovi",
+        "album": "Cross Road",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b2735f66fbeaff0725997250591c",
+        "duration_ms": 353026,
+        "isrc": "USPR39412221"
+      },
+      {
+        "id": "1bKQ48M9onID2kbSpRy8kK",
+        "name": "Send Me An Angel",
+        "artist": "Scorpions",
+        "album": "Crazy World",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273787674b6a114f98cad6f834b",
+        "duration_ms": 273333,
+        "isrc": "USPG19090044"
+      },
+      {
+        "id": "1zng9uqqXoPkmU05nsAlsw",
+        "name": "Bed Of Roses",
+        "artist": "Bon Jovi",
+        "album": "Keep The Faith",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27359bfe048568a969c6f0bd08c",
+        "duration_ms": 394400,
+        "isrc": "USPG19290093"
+      },
+      {
+        "id": "0gmbgwZ8iqyMPmXefof8Yf",
+        "name": "How You Remind Me",
+        "artist": "Nickelback",
+        "album": "Silver Side Up",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273699a422d25adc550dc5aa11c",
+        "duration_ms": 223840,
+        "isrc": "NLA320119533"
+      },
+      {
+        "id": "3d9DChrdc6BOeFsbrZ3Is0",
+        "name": "Under the Bridge",
+        "artist": "Red Hot Chili Peppers",
+        "album": "Blood Sugar Sex Magik (Deluxe Edition)",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273153d79816d853f2694b2cc70",
+        "duration_ms": 264306,
+        "isrc": "USWB19901576"
+      },
+      {
+        "id": "57iDDD9N9tTWe75x6qhStw",
+        "name": "Bitter Sweet Symphony - Remastered 2016",
+        "artist": "The Verve",
+        "album": "Urban Hymns (Remastered 2016)",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273707d13d3f87652e737e94d45",
+        "duration_ms": 357266,
+        "isrc": "GBUM71601816"
+      },
+      {
+        "id": "1SKPmfSYaPsETbRHaiA18G",
+        "name": "Somewhere Only We Know",
+        "artist": "Keane",
+        "album": "Hopes And Fears",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b2737d6cd95a046a3c0dacbc7d33",
+        "duration_ms": 237146,
+        "isrc": "GBAAN0300664"
+      },
+      {
+        "id": "2oaK4JLVnmRGIO9ytBE1bt",
+        "name": "Dark Necessities",
+        "artist": "Red Hot Chili Peppers",
+        "album": "The Getaway",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27358406b3f1ac3ceaff7a64fef",
+        "duration_ms": 302000,
+        "isrc": "USWB11600478"
+      },
+      {
+        "id": "7FVd8uGDHoyZmH4ORD9HIU",
+        "name": "These Pages",
+        "artist": "Mainstay",
+        "album": "Well Meaning Fiction",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273c5d17c4df9f67fd206c35e24",
+        "duration_ms": 218000,
+        "isrc": "USBR20500103"
+      },
+      {
+        "id": "5GorCbAP4aL0EJ16frG2hd",
+        "name": "Boulevard of Broken Dreams",
+        "artist": "Green Day",
+        "album": "Greatest Hits: God's Favorite Band",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b2737f213369d5265a60af5f7e82",
+        "duration_ms": 262333,
+        "isrc": "USRE10400985"
+      },
+      {
+        "id": "2o4u19nlQWOGg5mLanT7Pg",
+        "name": "Forever",
+        "artist": "KISS",
+        "album": "Hot In The Shade",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273f540af172086f9535fb9f600",
+        "duration_ms": 232640,
+        "isrc": "USIR20000528"
+      },
+      {
+        "id": "6QyWVCLASvvtpKD0KJZs5e",
+        "name": "Is This Love - 2018 Remaster",
+        "artist": "Whitesnake",
+        "album": "Whitesnake (2018 Remaster)",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27349113b5921d7a53f49b64bfd",
+        "duration_ms": 284496,
+        "isrc": "GB01A1800009"
+      },
+      {
+        "id": "0gEyKnHvgkrkBM6fbeHdwK",
+        "name": "Linger",
+        "artist": "The Cranberries",
+        "album": "Everybody Else Is Doing It, So Why Can't We?",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273f6325f361d7803ad0d908451",
+        "duration_ms": 274706,
+        "isrc": "USIR29300085"
+      },
+      {
+        "id": "0pQskrTITgmCMyr85tb9qq",
+        "name": "Starman - 2012 Remaster",
+        "artist": "David Bowie",
+        "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273c41f4e1133b0e6c5fcf58680",
+        "duration_ms": 254293,
+        "isrc": "USJT11200004"
+      },
+      {
+        "id": "2ejkRnZWPACfuqr06gFw1w",
+        "name": "Stay on These Roads",
+        "artist": "a-ha",
+        "album": "Stay on These Roads",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27310816799318a67035593e8df",
+        "duration_ms": 284053,
+        "isrc": "USWB10104744"
+      },
+      {
+        "id": "4gHnSNHs8RyVukKoWdS99f",
+        "name": "Something In The Way",
+        "artist": "Nirvana",
+        "album": "Nevermind (Remastered)",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273fbc71c99f9c1296c56dd51b6",
+        "duration_ms": 232146,
+        "isrc": "USGF19942512"
+      },
+      {
+        "id": "3ZffCQKLFLUvYM59XKLbVm",
+        "name": "Wake Me up When September Ends",
+        "artist": "Green Day",
+        "album": "American Idiot",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27308a1b1e0674086d3f1995e1b",
+        "duration_ms": 285653,
+        "isrc": "USRE10400992"
+      },
+      {
+        "id": "4RCWB3V8V0dignt99LZ8vH",
+        "name": "Hey There Delilah",
+        "artist": "Plain White T's",
+        "album": "All That We Needed",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273beae6e69d6505fd379ef3081",
+        "duration_ms": 232533,
+        "isrc": "US5260507213"
+      },
+      {
+        "id": "5hnyJvgoWiQUYZttV4wXy6",
+        "name": "Chasing Cars",
+        "artist": "Snow Patrol",
+        "album": "Eyes Open",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b2735da2756220da9b6f17924f8f",
+        "duration_ms": 267960,
+        "isrc": "GBUM70600345"
+      },
+      {
+        "id": "1AdYZ6X00nXmO613Y7GJOl",
+        "name": "I Miss You",
+        "artist": "blink-182",
+        "album": "blink-182",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b2730538b48c180256e0bdd8363f",
+        "duration_ms": 227250,
+        "isrc": "USMC10346123"
+      },
+      {
+        "id": "5QpaGzWp0hwB5faV8dkbAz",
+        "name": "Wherever You Will Go",
+        "artist": "The Calling",
+        "album": "Camino Palmero",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273e4cd26d38c6f0661a363bc65",
+        "duration_ms": 208600,
+        "isrc": "USRC10001047"
+      },
+      {
+        "id": "67WTwafOMgegV6ABnBQxcE",
+        "name": "Some Nights",
+        "artist": "fun.",
+        "album": "Some Nights",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273a036e1724bc7f2bab15cfda8",
+        "duration_ms": 277040,
+        "isrc": "USAT21104050"
+      },
+      {
+        "id": "2lQYr6dKLjVDOV5UDgzsfx",
+        "name": "interrobang - b-side",
+        "artist": "Switchfoot",
+        "album": "interrobang (Deluxe Edition)",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273231df0c2a1301824486eeab2",
+        "duration_ms": 228146,
+        "isrc": "USC4R2214420"
+      },
+      {
+        "id": "0sp00HSXkQyqTa6QqM0O8V",
+        "name": "Leave Out All The Rest",
+        "artist": "Linkin Park",
+        "album": "Minutes to Midnight",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b2736e996745f2c7b8036abef213",
+        "duration_ms": 209306,
+        "isrc": "USWB10701212"
+      },
+      {
+        "id": "0s8OMEGJQJIUr9VFwNEH1v",
+        "name": "With Arms Wide Open - New Version With Strings",
+        "artist": "Creed",
+        "album": "Human Clay",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273f8f048a5f4749c970078a4fb",
+        "duration_ms": 235266,
+        "isrc": "USWU39914053"
+      },
+      {
+        "id": "40riOy7x9W7GXjyGp4pjAv",
+        "name": "Hotel California - 2013 Remaster",
+        "artist": "Eagles",
+        "album": "Hotel California (2013 Remaster)",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b2734637341b9f507521afa9a778",
+        "duration_ms": 391376,
+        "isrc": "USEE11300353"
+      },
+      {
+        "id": "6Qyc6fS4DsZjB2mRW9DsQs",
+        "name": "Iris",
+        "artist": "The Goo Goo Dolls",
+        "album": "Dizzy up the Girl",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273eda9478c39a21e1cdc6609ca",
+        "duration_ms": 289533,
+        "isrc": "USWB19800160"
+      },
+      {
+        "id": "2DjWsDGgL1xNbhnr7f6t5F",
+        "name": "Baby Can I Hold You",
+        "artist": "Tracy Chapman",
+        "album": "Tracy Chapman",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27390b8a540137ee2a718a369f9",
+        "duration_ms": 193120,
+        "isrc": "USEE10180931"
+      },
+      {
+        "id": "5T8EDUDqKcs6OSOwEsfqG7",
+        "name": "Don't Stop Me Now - Remastered 2011",
+        "artist": "Queen",
+        "album": "Jazz (2011 Remaster)",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b2737c39dd133836c2c1c87e34d6",
+        "duration_ms": 209413,
+        "isrc": "GBUM71029610"
+      },
+      {
+        "id": "0FLBNqc5oAiTt4J2e3fe3y",
+        "name": "Blurry",
+        "artist": "Puddle Of Mudd",
+        "album": "Come Clean",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27353cf4c30b11cf78c7bf6b793",
+        "duration_ms": 303920,
+        "isrc": "USIR10110581"
+      },
+      {
+        "id": "3YRCqOhFifThpSRFJ1VWFM",
+        "name": "November Rain",
+        "artist": "Guns N' Roses",
+        "album": "Use Your Illusion I",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273e44963b8bb127552ac761873",
+        "duration_ms": 536066,
+        "isrc": "USGF19141510"
+      },
+      {
+        "id": "2PsQ1X4jCSwfiyCHg4Brr1",
+        "name": "Come Wake Me Up",
+        "artist": "Rascal Flatts",
+        "album": "Changed",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b27308d4bb7ea88f0dc8872b3fb2",
+        "duration_ms": 266293,
+        "isrc": "USCJY1112131"
+      },
+      {
+        "id": "3x5rt8vk1DyXf7DTGjZyva",
+        "name": "if i were you",
+        "artist": "Switchfoot",
+        "album": "interrobang",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b2736514470f018e215c9029f92b",
+        "duration_ms": 228133,
+        "isrc": "USC4R2108215"
+      },
+      {
+        "id": "0ntQJM78wzOLVeCUAW7Y45",
+        "name": "Sex on Fire",
+        "artist": "Kings of Leon",
+        "album": "Only By The Night",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b2732519d01c0cca06f134eeadd8",
+        "duration_ms": 203346,
+        "isrc": "USRC10800300"
+      },
+      {
+        "id": "28OaEH5Baa8RRloKvFGBWu",
+        "name": "Young Turks - 2008 Remaster",
+        "artist": "Rod Stewart",
+        "album": "Some Guys Have All the Luck",
+        "cover_url": "https://i.scdn.co/image/ab67616d0000b273af5437d890d1a41486e0a322",
+        "duration_ms": 302413,
+        "isrc": "USWB10806971"
+      }
+    ],
+    "createdAt": "2026-05-02T16:56:43.778Z"
+  },
+  {
+    "id": "mop395fywwb8",
+    "name": "[Spotify] Aquele dia",
+    "spotifyId": "72CaJrFcR6ldtmtxwSVEes",
+    "tracks": [],
+    "createdAt": "2026-05-03T01:25:06.382Z"
+  },
+  {
+    "id": "motchnrdewny",
+    "name": "[Spotify] Quando o carro chegar",
+    "spotifyId": "1Q6S0EGIqIHDwlreKdc2gW",
+    "tracks": [],
+    "createdAt": "2026-05-06T00:54:44.617Z"
+  }
+]

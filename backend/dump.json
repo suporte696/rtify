@@ -1,0 +1,46 @@
+{
+  "collaborative": false,
+  "description": "This playlist was created by https:&#x2F;&#x2F;www.tunemymusic.com that lets you transfer your playlist to Spotify from any music platform such as Deezer, YouTube, Apple Music etc.",
+  "external_urls": {
+    "spotify": "https://open.spotify.com/playlist/0gmiuUA0Jn08WAvcZVF0Fa"
+  },
+  "followers": {
+    "href": null,
+    "total": 0
+  },
+  "href": "https://api.spotify.com/v1/playlists/0gmiuUA0Jn08WAvcZVF0Fa",
+  "id": "0gmiuUA0Jn08WAvcZVF0Fa",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://mosaic.scdn.co/640/ab67616d00001e026514470f018e215c9029f92bab67616d00001e02656001849b39dfee31b8d855ab67616d00001e02a32f2ae4dade83e0d7a294f4ab67616d00001e02f687135853a4488b2178d0bf",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://mosaic.scdn.co/300/ab67616d00001e026514470f018e215c9029f92bab67616d00001e02656001849b39dfee31b8d855ab67616d00001e02a32f2ae4dade83e0d7a294f4ab67616d00001e02f687135853a4488b2178d0bf",
+      "width": 300
+    },
+    {
+      "height": 60,
+      "url": "https://mosaic.scdn.co/60/ab67616d00001e026514470f018e215c9029f92bab67616d00001e02656001849b39dfee31b8d855ab67616d00001e02a32f2ae4dade83e0d7a294f4ab67616d00001e02f687135853a4488b2178d0bf",
+      "width": 60
+    }
+  ],
+  "name": "\"ar-oh-ci-key\"",
+  "owner": {
+    "display_name": "Rodrigo Remir",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/user/31ysxteiekjvldypbxgs2ix2a7au"
+    },
+    "href": "https://api.spotify.com/v1/users/31ysxteiekjvldypbxgs2ix2a7au",
+    "id": "31ysxteiekjvldypbxgs2ix2a7au",
+    "type": "user",
+    "uri": "spotify:user:31ysxteiekjvldypbxgs2ix2a7au"
+  },
+  "primary_color": null,
+  "public": true,
+  "snapshot_id": "AAAAD8eOgZbaW8HPaZjheIrO0h7v0YEh",
+  "type": "playlist",
+  "uri": "spotify:playlist:0gmiuUA0Jn08WAvcZVF0Fa"
+}

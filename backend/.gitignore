@@ -1,0 +1,21 @@
+# Dependências
+node_modules/
+
+# Variáveis de ambiente (NUNCA comitar!)
+.env
+
+# Dados sensíveis e dinâmicos
+data/
+downloads/
+assets/
+
+# Arquivos de teste/debug
+dump.json
+info.json
+test1.json
+scraper.js
+test_spotify.js
+embed.html
+
+# Logs
+*.log
