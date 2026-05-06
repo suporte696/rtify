@@ -31,5 +31,5 @@ app.get('/', (req, res) => {
 
 // Iniciando o servidor
 app.listen(PORT, () => {
-    console.log(`[Rtify Server] Rodando na porta ${PORT}`);
+    console.log(`[Rtify Server v1.10] - Rodando na porta ${PORT}`);
 });
