@@ -46,7 +46,9 @@ router.get('/spotify/callback', async (req, res) => {
         });
 
         if (response.data.refresh_token) {
+            console.log('[Spotify OAuth] Refresh Token recebido com sucesso!');
             settingsService.setSpotifyRefreshToken(response.data.refresh_token);
+            console.log('[Spotify OAuth] Token salvo no arquivo de configurações.');
             spotifyService.clearTokenCache();
             // Sucesso visual no browser do navegador
             res.send(`

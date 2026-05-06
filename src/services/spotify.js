@@ -14,8 +14,10 @@ async function getAccessToken() {
     const clientSecret = process.env.SPOTIFY_CLIENT_SECRET;
 
     if (!clientId || !clientSecret) {
+        console.error('[Spotify Auth] ERRO: SPOTIFY_CLIENT_ID ou SECRET não encontrados no process.env!');
         throw new Error('Credenciais do Spotify não configuradas no .env');
     }
+    console.log('[Spotify Auth] Client ID presente:', clientId.substring(0, 5) + '...');
 
     const refreshToken = settingsService.getSpotifyRefreshToken();
     let dataPayload;

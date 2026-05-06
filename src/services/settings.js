@@ -28,7 +28,13 @@ function saveSettings(newSettings) {
     ensureFile();
     const current = getSettings();
     const updated = { ...current, ...newSettings };
-    fs.writeFileSync(SETTINGS_FILE, JSON.stringify(updated, null, 2), 'utf-8');
+    console.log(`[Settings] Gravando em: ${SETTINGS_FILE}`);
+    try {
+        fs.writeFileSync(SETTINGS_FILE, JSON.stringify(updated, null, 2), 'utf-8');
+        console.log('[Settings] Gravado com sucesso!');
+    } catch (e) {
+        console.error('[Settings] ERRO AO GRAVAR:', e.message);
+    }
     return updated;
 }
 
