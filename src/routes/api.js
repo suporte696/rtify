@@ -47,6 +47,7 @@ router.get('/spotify/callback', async (req, res) => {
 
         if (response.data.refresh_token) {
             settingsService.setSpotifyRefreshToken(response.data.refresh_token);
+            spotifyService.clearTokenCache();
             // Sucesso visual no browser do navegador
             res.send(`
                 <html><head><style>

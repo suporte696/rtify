@@ -6,6 +6,7 @@ let tokenExpiresAt = null;
 
 async function getAccessToken() {
     if (accessToken && Date.now() < tokenExpiresAt) {
+        console.log('[Spotify Auth] Usando token em memoria existente.');
         return accessToken;
     }
 
@@ -19,12 +20,16 @@ async function getAccessToken() {
     const refreshToken = settingsService.getSpotifyRefreshToken();
     let dataPayload;
 
+    console.log('[Spotify Auth] Refresh Token disponível?', !!refreshToken);
+
     if (refreshToken) {
+        console.log('[Spotify Auth] Usando auth_code (refresh_token) para logar como usuário.');
         dataPayload = new URLSearchParams({
             grant_type: 'refresh_token',
             refresh_token: refreshToken
         }).toString();
     } else {
+        console.log('[Spotify Auth] Usando client_credentials (token genérico/público). Apenas playlists públicas funcionarão.');
         dataPayload = 'grant_type=client_credentials';
     }
 
@@ -38,12 +43,22 @@ async function getAccessToken() {
         data: dataPayload
     };
 
-    const response = await axios(authOptions);
-    accessToken = response.data.access_token;
-    // O token expira normalmente em 3600 segundos
-    tokenExpiresAt = Date.now() + (response.data.expires_in * 1000) - 60000; // 1 min de margem de segurança
+    try {
+        const response = await axios(authOptions);
+        accessToken = response.data.access_token;
+        tokenExpiresAt = Date.now() + (response.data.expires_in * 1000) - 60000;
+        console.log('[Spotify Auth] Novo token obtido com sucesso!');
+        return accessToken;
+    } catch (e) {
+        console.error('[Spotify Auth] Falha ao obter token:', e.response?.data || e.message);
+        throw e;
+    }
+}
 
-    return accessToken;
+function clearTokenCache() {
+    accessToken = null;
+    tokenExpiresAt = null;
+    console.log('[Spotify Auth] Cache de token limpo.');
 }
 
 async function searchTracks(query) {
@@ -79,55 +94,64 @@ async function getPlaylistData(playlistUrl) {
     const match = playlistUrl.match(/playlist\/([a-zA-Z0-9]+)/);
     const playlistId = match ? match[1] : playlistUrl;
 
+    console.log(`[Spotify Sync] Iniciando importação da playlist: ${playlistId}`);
     const token = await getAccessToken();
 
-    // Campos necessários — solicitamos explicitamente para garantir que a API retorne tracks
+    // Reset fallback para o caso de restrições obscuras da API
     const fields = 'name,images,tracks.total,tracks.next,tracks.items(track(id,name,artists(name),album(name,images),duration_ms,external_ids))';
 
-    const response = await axios.get(`https://api.spotify.com/v1/playlists/${playlistId}`, {
-        headers: { 'Authorization': `Bearer ${token}` },
-        params: { fields }
-    });
-
-    const playlistName = response.data.name;
-    const allTracksRaw = [];
-
-    // Primeiro lote (embutido na resposta principal)
-    if (response.data.tracks && response.data.tracks.items) {
-        allTracksRaw.push(...response.data.tracks.items);
-    }
-
-    // Paginação: percorre todas as páginas seguintes
-    let nextUrl = response.data.tracks?.next;
-    while (nextUrl) {
-        const nextResponse = await axios.get(nextUrl, {
-            headers: { 'Authorization': `Bearer ${token}` }
+    try {
+        console.log(`[Spotify Sync] Fetching metadata & first tracks...`);
+        const response = await axios.get(`https://api.spotify.com/v1/playlists/${playlistId}`, {
+            headers: { 'Authorization': `Bearer ${token}` },
+            params: { fields }
         });
-        if (nextResponse.data.items) {
-            allTracksRaw.push(...nextResponse.data.items);
+
+        const playlistName = response.data.name;
+        const allTracksRaw = [];
+
+        if (response.data.tracks && response.data.tracks.items) {
+            console.log(`[Spotify Sync] 1º lote de faixas recebidas: ${response.data.tracks.items.length}`);
+            allTracksRaw.push(...response.data.tracks.items);
+        } else {
+            console.warn(`[Spotify Sync] AVISO CRÍTICO: Campo 'tracks' omitido pela API do Spotify! O token atual não tem permissão para ler as faixas desta playlist.`);
         }
-        nextUrl = nextResponse.data.next || null;
+
+        // Paginação: percorre todas as páginas seguintes
+        let nextUrl = response.data.tracks?.next;
+        while (nextUrl) {
+            const nextResponse = await axios.get(nextUrl, {
+                headers: { 'Authorization': `Bearer ${token}` }
+            });
+            if (nextResponse.data.items) {
+                allTracksRaw.push(...nextResponse.data.items);
+            }
+            nextUrl = nextResponse.data.next || null;
+        }
+
+        console.log(`[Spotify Sync] ${allTracksRaw.length} faixas encontradas na playlist "${playlistName}".`);
+
+        const tracks = allTracksRaw
+            .map(item => item.track)
+            .filter(track => track && track.id)
+            .map(track => {
+                return {
+                    id: track.id,
+                    name: track.name,
+                    artist: track.artists ? track.artists.map(a => a?.name).join(', ') : 'Unknown Artist',
+                    album: track.album ? track.album.name : 'Unknown Album',
+                    cover_url: track.album?.images?.[0]?.url || null,
+                    duration_ms: track.duration_ms || 0,
+                    isrc: track.external_ids?.isrc || null
+                };
+            })
+            .filter(t => t.isrc !== null);
+
+        return { name: playlistName, tracks };
+    } catch (e) {
+        console.error(`[Spotify Sync] Erro Crítico:`, e.response?.data || e.message);
+        throw e;
     }
-
-    console.log(`[Spotify Sync] ${allTracksRaw.length} faixas encontradas na playlist "${playlistName}".`);
-
-    const tracks = allTracksRaw
-        .map(item => item.track)
-        .filter(track => track && track.id)
-        .map(track => {
-            return {
-                id: track.id,
-                name: track.name,
-                artist: track.artists ? track.artists.map(a => a?.name).join(', ') : 'Unknown Artist',
-                album: track.album ? track.album.name : 'Unknown Album',
-                cover_url: track.album?.images?.[0]?.url || null,
-                duration_ms: track.duration_ms || 0,
-                isrc: track.external_ids?.isrc || null
-            };
-        })
-        .filter(t => t.isrc !== null);
-
-    return { name: playlistName, tracks };
 }
 
 
@@ -170,5 +194,6 @@ async function getRecommendations(trackName, artistName) {
 module.exports = {
     searchTracks,
     getRecommendations,
-    getPlaylistData
+    getPlaylistData,
+    clearTokenCache
 };

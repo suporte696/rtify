@@ -144,8 +144,9 @@ async function importSpotifyPlaylist(req, res) {
         res.json({ success: true, data: pl, addedTracks: addedCount });
 
     } catch (e) {
-        console.error('Erro sincronizando playlist:', e.message);
-        res.status(500).json({ error: 'Falha ao sincronizar. A playlist está definida como Pública?' });
+        console.error('Erro sincronizando playlist:', e.response?.data || e.message);
+        const detail = e.response?.data?.error?.message || e.message;
+        res.status(500).json({ error: `Falha na API do Spotify: ${detail}` });
     }
 }
 
