@@ -4,8 +4,8 @@
   "description": "Backend Proxy for Spotify -> Deezer Streaming via ARL",
   "main": "server.js",
   "scripts": {
-    "start": "node --openssl-legacy-provider server.js",
-    "dev": "node --openssl-legacy-provider --watch server.js"
+    "start": "node server.js",
+    "dev": "node --watch server.js"
   },
   "dependencies": {
     "axios": "^1.6.8",
